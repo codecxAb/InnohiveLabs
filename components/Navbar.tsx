@@ -33,7 +33,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           <div className="logo">
-            <img className="h-16 w-auto" src="images/logo_reverse_bgrm.png" alt="" />
+            <img
+              className="h-16 w-auto"
+              src="images/logo_reverse_bgrm.png"
+              alt=""
+            />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <button
@@ -60,7 +64,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
-              Let's Talk
+              Contact
             </a>
           </div>
           <div className="md:hidden">
@@ -101,7 +105,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
-              Let's Talk
+              Contact
             </a>
           </div>
         </div>

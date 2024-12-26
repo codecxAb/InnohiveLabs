@@ -1,11 +1,5 @@
 import Link from "next/link";
-import {
-  Instagram,
-  Twitter,
-  Linkedin,
-  GitlabIcon as GitHub,
-  Facebook,
-} from "lucide-react";
+import { Instagram, Linkedin, Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
