@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import { Linkedin } from "lucide-react";
 
 const teamMembers = [
   {
@@ -10,18 +11,21 @@ const teamMembers = [
     role: "Frontend Developer & UI/UX Designer",
     description:
       "Specializing in building intuitive interfaces and designing exceptional user experiences.",
+    Link: "https://www.linkedin.com/in/basu-anurag/",
   },
   {
     name: "Rohit Roychaudhury",
     role: "Backend Developer & CI/CD Engineer",
     description:
       "Expert in building scalable server-side applications and managing seamless CI/CD pipelines.",
+    Link: "https://www.linkedin.com/in/rohitroychoudhury/",
   },
   {
     name: "Arkaprabha Banerjee",
     role: "Data Scientist",
     description:
       "Harnessing the power of data to unlock insights and drive impactful decisions for our clients.",
+    Link: "https://www.linkedin.com/in/arkaprabhabanerjee13/",
   },
 ];
 
@@ -85,6 +89,9 @@ export default function AboutUs() {
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900 opacity-0 group-hover:opacity-50 transition-opacity duration-300 rounded-xl"></div>
                 <h2 className="text-2xl font-semibold text-white mb-4">
                   {member.name}
+                  <a className="relative z-10" href={member.Link}>
+                    <Linkedin size={24} />
+                  </a>
                 </h2>
                 <p className="text-blue-400">{member.role}</p>
                 <p className="text-gray-400 mt-4">{member.description}</p>
