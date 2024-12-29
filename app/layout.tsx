@@ -5,7 +5,7 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  icons: "/images/logo.svg",
+  icons: "images/logo.svg",
   title: "InnohiveLabs - Premium Web Development & Design",
   description:
     "Elevate your digital presence with InnohiveLabs. We create stunning websites and user experiences.",
