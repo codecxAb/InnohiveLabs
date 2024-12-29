@@ -4,7 +4,7 @@ Innohive Labs is a website built to showcase innovative projects, provide valuab
 
 ## Website
 
-Visit the live site here: [Innohive Labs](https://innohivelabs.vercel.app)
+Visit the live site here: [Innohive Labs](https://innohivelabs.tech)
 
 ## Features
 
