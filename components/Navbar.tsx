@@ -33,11 +33,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
           <div className="logo">
-            <img
-              className="h-16 w-auto"
-              src="images/logo_reverse_bgrm.png"
-              alt=""
-            />
+            <a href="/">
+              <img
+                className="h-16 w-auto"
+                src="images/logo_reverse_bgrm.png"
+                alt=""
+              />
+            </a>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <button
