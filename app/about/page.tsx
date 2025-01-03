@@ -14,7 +14,7 @@ const teamMembers = [
     Link: "https://www.linkedin.com/in/basu-anurag/",
   },
   {
-    name: "Rohit Roychaudhury",
+    name: "Rohit Roychoudhury",
     role: "Backend Developer & CI/CD Engineer",
     description:
       "Expert in building scalable server-side applications and managing seamless CI/CD pipelines.",
