@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#contact"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf7JvpW-JygmHE_1RUKWPU07qW1Wy-KKOqr9k8oIH5hhzpqyQ/viewform"
                   className="text-gray-400 hover:text-blue-400 transition-colors"
                 >
                   Contact

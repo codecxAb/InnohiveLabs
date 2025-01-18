@@ -1,14 +1,35 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import { Star } from "lucide-react";
 import Image from "next/image";
 
 const projects = [
-  { id: 1, title: "E-commerce Platform", image: "/images/ecommerce.png" },
-  { id: 2, title: "Real state site", image: "/images/realstate.png" },
-  { id: 3, title: "Restaurant Site", image: "/images/restaurant.png" },
-  { id: 4, title: "Agency site", image: "/images/productDesign.png" },
+  // {
+  //   id: 1,
+  //   title: "E-commerce Platform",
+  //   image: "/images/ecommerce.png",
+  //   link: "/images/e_commerce_full.png",
+  // },
+  {
+    id: 2,
+    title: "Real state site",
+    image: "/images/realstate.png",
+    link: "/realstate",
+  },
+  {
+    id: 3,
+    title: "Restaurant Site",
+    image: "/images/restaurant.png",
+    link: "/restaurant",
+  },
+  {
+    id: 4,
+    title: "Agency site",
+    image: "/images/productDesign.png",
+    link: "/agency",
+  },
 ];
 
 export default function Works() {
@@ -59,7 +80,7 @@ export default function Works() {
               <div className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <button className="bg-white text-gray-900 px-6 py-2 rounded-lg hover:bg-gray-200 transition-colors">
-                  View Project
+                  <Link href={project.link}>View Project</Link>
                 </button>
               </div>
             </div>
