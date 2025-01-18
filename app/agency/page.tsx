@@ -231,8 +231,8 @@ export default function Page() {
                     ))}
                   </div>
                   <p className="mb-6 text-gray-300">
-                    "DBGenius has revolutionized our database design process.
-                    What used to take days now takes hours."
+                    DBGenius has revolutionized our database design process.
+                    What used to take days now takes hours.
                   </p>
                   <div className="flex items-center">
                     <div className="h-10 w-10 rounded-full bg-gray-700" />
