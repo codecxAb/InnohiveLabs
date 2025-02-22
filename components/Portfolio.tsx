@@ -6,29 +6,36 @@ import { Star } from "lucide-react";
 import Image from "next/image";
 
 const projects = [
-  // {
-  //   id: 1,
-  //   title: "E-commerce Platform",
-  //   image: "/images/ecommerce.png",
-  //   link: "/images/e_commerce_full.png",
-  // },
+  {
+    id: 1,
+    title: "Agency site",
+    image: "/images/agency.png",
+    link: "https://innohivelabs.github.io/Demo_PRO/",
+  },
   {
     id: 2,
+    title: "Agency Education site",
+    image: "/images/edu.png",
+    link: "https://innohivelabs.github.io/Education_demo/",
+  },
+  {
+    id: 3,
+    title: "Gym site",
+    image: "/images/gym.png",
+    link: "https://innohivelabs.github.io/GYM_DEMO/",
+  },
+
+  {
+    id: 4,
     title: "Real state site",
     image: "/images/realstate.png",
     link: "/realstate",
   },
   {
-    id: 3,
+    id: 5,
     title: "Restaurant Site",
     image: "/images/restaurant.png",
     link: "/restaurant",
-  },
-  {
-    id: 4,
-    title: "Agency site",
-    image: "/images/productDesign.png",
-    link: "/agency",
   },
 ];
 
